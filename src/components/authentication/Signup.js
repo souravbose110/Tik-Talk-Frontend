@@ -186,7 +186,7 @@ const Signup = () => {
       <FormControl
         id="profilePicture"
         isRequired
-        height="125px"
+        height={{ base: "80px", md: "125px" }}
         display="flex"
         flexDir="column"
       >
