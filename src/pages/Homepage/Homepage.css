@@ -1,0 +1,24 @@
+.box {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  background-color: white;
+  width: 100%;
+  margin: 40px 0 15px 0;
+  border-radius: 0.5rem;
+  border-width: 1px;
+}
+
+.title {
+  font-size: 2.9rem;
+  font-family: "Pacifico", cursive, "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.authorization-box {
+  background: white;
+  width: 100%;
+  padding: 4px;
+  border-radius: 0.5rem;
+  border-width: 1px;
+}

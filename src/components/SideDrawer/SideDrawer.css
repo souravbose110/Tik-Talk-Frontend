@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  border-width: 5px;
+}
+
+.title {
+  font-family: "Pacifico", cursive, "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .search-bar {
+    display: none;
+  }
+}

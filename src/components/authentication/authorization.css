@@ -1,0 +1,16 @@
+.avatar {
+  border: 0.4rem solid transparent;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 5rem;
+  transition: 500ms ease-in-out;
+}
+
+.avatar-row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

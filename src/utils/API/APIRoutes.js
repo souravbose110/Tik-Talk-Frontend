@@ -1,0 +1,10 @@
+export const host = "https://mern-tik-talk.herokuapp.com";
+export const loginRoute = `${host}/api/users/login`;
+export const registerRoute = `${host}/api/users`;
+export const searchUsersRoute = `${host}/api/users?search`;
+export const createGroupRoute = `${host}/api/chats/group`;
+export const chatRoute = `${host}/api/chats`;
+export const messageRoute = `${host}/api/messages`;
+export const renameGroupRoute = `${host}/api/chats/rename`;
+export const addUserToGroupRoute = `${host}/api/chats/groupadd`;
+export const removeUserFromGroupRoute = `${host}/api/chats/groupremove`;
